@@ -1458,6 +1458,7 @@ docker volume create \
 
 # tmpfs volume
 docker run --tmpfs /app/tmp:rw,size=100m,mode=1777 nginx
+```
 
 # Device mapping
 docker run --device /dev/sda:/dev/xvda:rwm ubuntu
